@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burmaldа́ - Авторские букеты</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="header__container">
+            <a href="#" class="header__logo">
+                <span class="header__logo-text">BURMALDÁ <span class="header__logo-sub">studio</span></span>
+            </a>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#about" class="nav__link">О студии</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="#gallery" class="nav__link">Галерея</a></li>
+                    <li class="nav__item"><a href="#reviews" class="nav__link">Отзывы</a></li>
+                </ul>
+            </nav>
+            <button class="burger" aria-label="Меню">
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+                <span class="burger__line"></span>
+            </button>
+            <a href="#form" class="header__button">Заказать букет</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero__container">
+                <div class="content hero__content">
+                    <h1 class="hero__title">Цветы, которые говорят за вас</h1>
+                    <p class="hero__subtitle">Авторские букеты и композиции для особенных моментов</p>
+                    <div class="hero__actions">
+                        <a href="#form" class="button hero__button" >Написать нам</a>
+                        <a href="#gallery" class="button hero__button">Смотреть работы</a>
+                    </div>
+                </div>
+                <!-- <div class="hero__image-box">
+                    <img src="hero-img.jpg" alt="Букет" class="hero-img">
+                </div> -->
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container about__container">
+                <div class="about__content">
+                    <div class="block-header">
+                        <span class="block-header__number">01</span>
+                        <span class="block-header__subtitle">О СТУДИИ</span>
+                    </div>
+                    <h2 class="section-title">Авторская флористика, основанная<br>на эстетике, деталях и чувствах</h2>
+                    <p class="about__text">Burmaldа́ studio — это команда профессиональных флористов, которые создают уникальные композиции с вниманием к деталям и любовью к каждому цветку. Мы работаем с премиальными цветами и создаем композиции, которые остаются в памяти.</p>
+                    <a href="#" class="about__link">
+                        <span class="link__icon">Подробнее о нас</span>
+                        <span class="about__arrow">
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="about__image">
+                    <img src="images/flor.jpg" alt="Флористика">
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="container">
+                <div class="block-header block-header--center">
+                    <span class="block-header__number">02</span>
+                    <span class="block-header__subtitle">ПОЧЕМУ ВЫБИРАЮТ НАС</span>
+                </div>
+                <div class="features__grid">
+                    <div class="feature-item">
+                        <span class="feature-item__num">01</span>
+                        <h3 class="feature-item__title">Авторский<br>подход</h3>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-item__num">02</span>
+                        <h3 class="feature-item__title">Свежесть<br>и качество</h3>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-item__num">03</span>
+                        <h3 class="feature-item__title">Эстетика<br>в деталях</h3>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-item__num">04</span>
+                        <h3 class="feature-item__title">Доставка<br>в срок</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <div class="block-header block-header--center">
+                    <span class="block-header__number">03</span>
+                    <h2 class="section-title">НАШИ УСЛУГИ</h2>
+                </div>
+                <div class="services__grid">
+                    <button class="service-btn" type="button">
+                        <img src="images/ser3.jpg" alt="Букеты" class="service-btn__img">
+                        <div class="service-btn__content">
+                            <h3 class="service-btn__title">Букеты</h3>
+                            <p class="service-btn__text">на каждый день и особые случаи</p>
+                        </div>
+                    </button>
+                    <button class="service-btn" type="button">
+                        <img src="images/ser1.jpg" alt="Свадебная флористика" class="service-btn__img">
+                        <div class="service-btn__content">
+                            <h3 class="service-btn__title">Свадебная флористика</h3>
+                            <p class="service-btn__text">букеты, декор, арки</p>
+                        </div>
+                    </button>
+                    <button class="service-btn" type="button">
+                        <img src="images/ser2.jpg" alt="Оформление мероприятий" class="service-btn__img">
+                        <div class="service-btn__content">
+                            <h3 class="service-btn__title">Оформление мероприятий</h3>
+                            <p class="service-btn__text">от камерных до масштабных</p>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <div class="promo-banner">
+            <div class="container promo-banner__container">
+                <div class="promo-banner__content">
+                    <p class="promo-banner__text">Цветы — это язык,<br>на котором говорит сердце</p>
+                    <p class="promo-banner__sub">Подобрать букет, который скажет<br>самое главное</p>
+                    <a href="#gallery" class="button">Выбрать букет</a>
+                </div>
+                <div class="promo-banner__image">
+                    <img src="images/promofl.png" alt="Цветок">
+                </div>
+            </div>
+        </div>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+    
+                <div class="block-header block-header--center">
+                    <span class="block-header__number">04</span>
+                    <h2 class="section-title">Наша галерея</h2>
+                </div>
+
+                <div class="gallery__carousel">
+                    <button class="gallery__arrow gallery__arrow--prev" aria-label="Previous slide">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+                    </button>
+      
+                    <div class="gallery__track">
+        
+                        <div class="gallery__slide">
+                            <div class="gallery__card">
+                                <img src="images/flower1.jpg" alt="Букет 1" class="gallery__img">
+                                <div class="gallery__tooltip">Букет «Розовый фарфор» — 4 500 ₽</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery__slide">
+                            <div class="gallery__card">
+                                <img src="images/flower2.jpg" alt="Букет 2" class="gallery__img">
+                                <div class="gallery__tooltip">Букет «Персиковый сорбет» — 5 200 ₽</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery__slide">
+                            <div class="gallery__card">
+                                <img src="images/flower3.jpg" alt="Букет 3" class="gallery__img">
+                                <div class="gallery__tooltip">Букет «Утренний сад» — 6 800 ₽</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery__slide">
+                            <div class="gallery__card">
+                                <img src="images/flower4.jpg" alt="Букет 4" class="gallery__img">
+                                <div class="gallery__tooltip">Букет «Экзотик» — 4 800 ₽</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery__slide">
+                            <div class="gallery__card">
+                                <img src="images/flower5.jpg" alt="Букет 5" class="gallery__img">
+                                <div class="gallery__tooltip">Букет «Коралловый закат» — 5 500 ₽</div>
+                            </div>
+                        </div>
+
+                        <div class="gallery__slide">
+                            <div class="gallery__card">
+                                <img src="images/flower6.jpg" alt="Букет 6" class="gallery__img">
+                                <div class="gallery__tooltip">Букет «Пиономания» — 7 500 ₽</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="gallery__arrow gallery__arrow--next" aria-label="Next slide">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <div class="block-header block-header--center">
+                    <span class="block-header__number">05</span>
+                    <h2 class="section-title">ОТЗЫВЫ</h2>
+                </div>
+                <div class="reviews__grid">
+                    <div class="review-item">
+                        <div class="review-item__stars">★★★★★</div>
+                        <p class="review-item__text">Заказывала букет на день рождения мамы. Всё прошло идеально! Нежные цветы, стильное оформление и быстрая доставка.</p>
+                        <span class="review-item__author">— Алина</span>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-item__stars">★★★★★</div>
+                        <p class="review-item__text">Оформляли свадьбу в студии. Всё было очень красиво, утонченно и со вкусом. Спасибо за профессионализм!</p>
+                        <span class="review-item__author">— Екатерина</span>
+                    </div>
+                    <div class="review-item">
+                        <div class="review-item__stars">★★★★★</div>
+                        <p class="review-item__text">Обожаю их стиль – лучшее решение для нашего офиса. Всегда свежие цветы и шикарные композиции.</p>
+                        <span class="review-item__author">— Валерия</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="quote-accent">
+            <div class="container quote-accent__container">
+                <p class="quote-accent__text">Мы создаем красоту,<br>которая остается в сердце</p>
+            </div>
+        </div>
+
+
+        <section id="form" class="order">
+            <div class="container order__container">
+                <div class="order__form-side">
+                    <div class="block-header">
+                        <span class="block-header__number">06</span>
+                        <span class="block-header__subtitle">ЗАКАЗАТЬ БУКЕТ</span>
+                    </div>
+                    <form class="order__form" action="#" method="POST">
+                        <div class="form-group-row">
+                            <input type="text" class="order__input" placeholder="Ваше имя" required>
+                            <input type="tel" class="order__input" placeholder="Телефон" required>
+                        </div>
+                        <input type="email" class="order__input" placeholder="E-mail">
+                        <textarea class="order__textarea" placeholder="Сообщение или пожелания к букету" rows="4"></textarea>
+                        <button type="submit" class="button order__submit">Отправить запрос</button>
+                    </form>
+                </div>
+            </div>
+            <div class="order__decor-side">
+                <img src="images/form1.png" alt="Флористика" class="order__decor-img">
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__block">
+                <a href="#" class="footer__logo-text">BURMALDÁ</a>
+                <p class="footer__copy">2026 Студия флористики</p>
+            </div>
+            <div class="footer__block">
+                <h4 class="footer__title">НАВИГАЦИЯ</h4>
+                <ul class="footer__links">
+                    <li><a href="#about">О студии</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#reviews">Отзывы</a></li>
+                </ul>
+            </div>
+            <div class="footer__block">
+                <h4 class="footer__title">КОНТАКТЫ</h4>
+                <p class="footer__info">г. Омск, ул. Цветочная, 67</p>
+                <p class="footer__info">+7 (999) 123-45-67</p>
+                <p class="footer__info">mell@burmalda.studio</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
